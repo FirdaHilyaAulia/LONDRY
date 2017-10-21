@@ -106,9 +106,9 @@ public class FXMLLaundryController implements Initializable {
         alamat.setText("");
         brt.setText("");
         notel.setText("");
-        s.setText("");
-        ck.setText("");
-        cks.setText("");
+        s.setSelected(false);
+        ck.setSelected(false);
+        cks.setSelected(false);
         tp.setText("");
         hasil.setText("");
     }
